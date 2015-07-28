@@ -1,0 +1,93 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'bodyParser',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 warn package.json msg-reader@1.0.0 No repository field.
+6 warn package.json msg-reader@1.0.0 No README data
+7 warn package.json fs@0.0.2 fs is also the name of a node core module.
+8 warn package.json fs@0.0.2 No description
+9 warn package.json fs@0.0.2 No repository field.
+10 warn package.json path@0.11.14 path is also the name of a node core module.
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ 'bodyParser', null ]
+13 verbose cache add name=undefined spec="bodyParser" args=["bodyParser",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'bodyParser',
+14 verbose parsed url   path: 'bodyParser',
+14 verbose parsed url   href: 'bodyParser' }
+15 silly lockFile caa4c3c7-bodyParser bodyParser
+16 verbose lock bodyParser C:\Users\BNU_04\AppData\Roaming\npm-cache\caa4c3c7-bodyParser.lock
+17 silly lockFile caa4c3c7-bodyParser bodyParser
+18 silly lockFile caa4c3c7-bodyParser bodyParser
+19 verbose addNamed [ 'bodyParser', '' ]
+20 verbose addNamed [ null, '*' ]
+21 silly lockFile e0b6bd45-bodyParser bodyParser@
+22 verbose lock bodyParser@ C:\Users\BNU_04\AppData\Roaming\npm-cache\e0b6bd45-bodyParser.lock
+23 silly addNameRange { name: 'bodyParser', range: '*', hasData: false }
+24 verbose request where is /bodyParser
+25 verbose request registry https://registry.npmjs.org/
+26 verbose request id faa87d43a8f1db7a
+27 verbose url raw /bodyParser
+28 verbose url resolving [ 'https://registry.npmjs.org/', './bodyParser' ]
+29 verbose url resolved https://registry.npmjs.org/bodyParser
+30 verbose request where is https://registry.npmjs.org/bodyParser
+31 info trying registry request attempt 1 at 14:06:01
+32 http GET https://registry.npmjs.org/bodyParser
+33 http 404 https://registry.npmjs.org/bodyParser
+34 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+34 verbose headers   'content-type': 'application/json',
+34 verbose headers   'cache-control': 'max-age=0',
+34 verbose headers   'content-length': '51',
+34 verbose headers   'accept-ranges': 'bytes',
+34 verbose headers   date: 'Tue, 28 Jul 2015 17:06:02 GMT',
+34 verbose headers   via: '1.1 varnish',
+34 verbose headers   age: '0',
+34 verbose headers   connection: 'keep-alive',
+34 verbose headers   'x-served-by': 'cache-iad2135-IAD',
+34 verbose headers   'x-cache': 'MISS',
+34 verbose headers   'x-cache-hits': '0',
+34 verbose headers   'x-timer': 'S1438103161.786358,VS0,VE357' }
+35 silly registry.get cb [ 404,
+35 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+35 silly registry.get     'content-type': 'application/json',
+35 silly registry.get     'cache-control': 'max-age=0',
+35 silly registry.get     'content-length': '51',
+35 silly registry.get     'accept-ranges': 'bytes',
+35 silly registry.get     date: 'Tue, 28 Jul 2015 17:06:02 GMT',
+35 silly registry.get     via: '1.1 varnish',
+35 silly registry.get     age: '0',
+35 silly registry.get     connection: 'keep-alive',
+35 silly registry.get     'x-served-by': 'cache-iad2135-IAD',
+35 silly registry.get     'x-cache': 'MISS',
+35 silly registry.get     'x-cache-hits': '0',
+35 silly registry.get     'x-timer': 'S1438103161.786358,VS0,VE357' } ]
+36 silly lockFile e0b6bd45-bodyParser bodyParser@
+37 silly lockFile e0b6bd45-bodyParser bodyParser@
+38 error 404 404 Not Found: bodyParser
+38 error 404
+38 error 404 'bodyParser' is not in the npm registry.
+38 error 404 You should bug the author to publish it
+38 error 404 It was specified as a dependency of 'msg-reader'
+38 error 404
+38 error 404 Note that you can also install from a
+38 error 404 tarball, folder, or http url, or git url.
+39 error System Windows_NT 6.1.7601
+40 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "bodyParser" "--save"
+41 error cwd C:\github\msg-reader
+42 error node -v v0.10.33
+43 error npm -v 1.4.28
+44 error code E404
+45 verbose exit [ 1, true ]
