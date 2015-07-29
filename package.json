@@ -1,5 +1,5 @@
 {
-  "name": "msg-reader",
+  "name": "mvc-nodejs-express",
   "version": "1.0.0",
   "description": "Leitor de Mensagens SMS",
   "main": "app.js",
@@ -24,6 +24,7 @@
     "mongoose": "^4.1.0",
     "morgan": "^1.6.1",
     "path": "^0.11.14",
-    "serve-favicon": "^2.3.0"
+    "serve-favicon": "^2.3.0",
+    "xml2js": "^0.4.9"
   }
 }
